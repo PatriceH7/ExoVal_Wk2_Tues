@@ -2,7 +2,7 @@
 
 # demander son âge à l'utilisateur, 
 # et pour chaque année depuis sa naissance, dire
-# "Il y a X ans, tu avais Y ans"
+# "Il y a X ans, tu avais Y ans !
 
 puts "Quelle est ton année de naissance ?"
 print "> "
@@ -14,5 +14,6 @@ user_birth_year = gets.chomp
 	print " ans, tu avais "
 	print 1 + i
 	puts " ans !"
-	
 end
+
+# 2nde version ds laquelle on a effectivement enlevé les années
